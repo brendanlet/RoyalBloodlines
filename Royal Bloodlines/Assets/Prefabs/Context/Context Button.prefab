@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2207735698272274351}
   - component: {fileID: 2207735698272274001}
   - component: {fileID: 2207735698272274350}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 2207735699710988499}
   - component: {fileID: 2207735699710988496}
   - component: {fileID: 2207735699710988497}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Context Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2207735699710988335}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 98.43927}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2207735698272274351}
@@ -274,4 +274,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2207735699710988496}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1225871613611629073, guid: 8c25b562a18c1ae40b41b6ed7968f1f8,
+          type: 3}
+        m_MethodName: Disappear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

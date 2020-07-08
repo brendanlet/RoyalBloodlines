@@ -25,9 +25,12 @@ public class ContextMaker : MonoBehaviour
 
             contextOrigin.z = 0;
 
+            print(contextOrigin);
+
+            //Vector3 tmp = new Vector3(contextMenu.position.x, contextMenu.position.y);
+
             contextMenu.position = contextOrigin;
-
-
+            
             contextMenu.gameObject.SetActive(true);
             
         }
